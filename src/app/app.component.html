@@ -1,0 +1,27 @@
+<div class="container">
+  <header>
+    <nav>
+      <ul>
+        <li><a routerLink="/">Início</a></li>
+        <li><a routerLink="/servicos">Serviços</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <ul class="nav-right">
+          <li><a routerLink="/login">Login</a></li>
+          <li><a routerLink="/registro">Cadastro</a></li>
+        </ul>
+      </ul>
+    </nav>
+  </header>
+  <main class="content">
+    <section class="banner">
+      <h1>Aparelhos de fisioterapia</h1>
+      <p>Conheça nossos aparelhos e equipamentos para reabilitação física</p>
+    </section>
+    <router-outlet></router-outlet>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023</p>
+  </footer>
+</div>
